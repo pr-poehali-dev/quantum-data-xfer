@@ -15,31 +15,31 @@ export function ServicesSection() {
           }`}
         >
           <h2 className="mb-2 font-sans text-5xl font-light tracking-tight text-foreground md:text-6xl lg:text-7xl">
-            Услуги
+            Ассортимент
           </h2>
-          <p className="font-mono text-sm text-foreground/60 md:text-base">/ Наши компетенции</p>
+          <p className="font-mono text-sm text-foreground/60 md:text-base">/ Всё для вашей церкви и семьи</p>
         </div>
 
         <div className="grid gap-8 md:grid-cols-2 md:gap-x-16 md:gap-y-12 lg:gap-x-24">
           {[
             {
-              title: "Веб-разработка",
-              description: "Создание современных веб-приложений любой сложности",
+              title: "Игры и стикеры",
+              description: "Карточные игры (как взрывная рыбка), стикеры с христианскими символами — для вечеринок и молодёжных встреч",
               direction: "top",
             },
             {
-              title: "UI/UX Дизайн",
-              description: "Проектирование удобных и красивых интерфейсов",
+              title: "Плакаты и фото",
+              description: "Красивые плакаты с цитатами из Библии и фотографии — для украшения дома, класса или церкви",
               direction: "right",
             },
             {
-              title: "Мобильные приложения",
-              description: "Кроссплатформенная разработка для iOS и Android",
+              title: "Подарки и декор",
+              description: "Шарики на день рождения церкви, подарочные коробки, флаеры и закладки для Библии",
               direction: "left",
             },
             {
-              title: "Консалтинг",
-              description: "Техническая экспертиза и стратегическое планирование",
+              title: "Детские товары",
+              description: "Фигурки, игрушки и обучающие материалы на библейские темы — для детских служений и воскресных школ",
               direction: "bottom",
             },
           ].map((service, i) => (
